@@ -53,10 +53,14 @@ header ul {
  margin-bottom: 57px;
  list-style: none;
  text-align: center;    }
-header a {
+header > h1 a {
  color: white;
- font-size: 20px;
  text-decoration: none;
+ font-size: 68px;
+}
+header nav a {
+  color: #ffffff;
+  
 }
 h1 {
  color: #ffffff;
