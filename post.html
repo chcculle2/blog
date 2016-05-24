@@ -23,23 +23,53 @@
       <div id="content">
         <article>
           <header>
-            <h2><a href="post.html" >Post Headline</a></h2>
+            <h2>Post Headline</h2>
             <p>Written by <a href="" >Shane Riley</a> on <time datetime="2014-02-15">Feb. 14, 2014</time></p>
           </header>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut alquip ex ea commodo consequat. Duis aute irure dolor in rprehenderit in voluptate velit esse culpa qui officia deserunt mollit.</p>
         </article>
-        <article>
-          <header>
-            <h2><a href="post.html" >Post Headline</a></h2>
-            <p>Written by <a href="" >Shane Riley</a> on <time datetime="2014-02-15">Feb. 14, 2014</time></p>
-          </header>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut alquip ex ea commodo consequat. Duis aute irure dolor in rprehenderit in voluptate velit esse culpa qui officia deserunt mollit.</p>
-        </article>
+        <section class="comments">
+          <h2>Comments</h2>
+          <article>
+            <header>
+              <img src="images/img-kevin.jpg" width="40" height="40">
+              <a href="" >Chris</a>  on <time datetime="2014-02-15">Feb. 14, 2014</time></p>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.  </p>
+          </article>
+          <article>
+            <header>
+              <img src="images/img-kevin.jpg" width="40" height="40">
+              <h3>
+                <a href="" >Kevin</a>
+                on
+                <time datetime="2014-02-15">Feb. 14, 2014</time></p>
+              </h3>
+            </header>
+            <p>Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </article>
+        </section>
+        <form action="" method="post">
+        <h2>Post Comment</h2>
+        <fieldset>
+          <dl>
+            <dt><label for="name">Your Name</label></dt>
+            <dd>
+              <input type="text" name="name" id="name" />
+            </dd>
+            <dt><label for="email"> Email Address</label></dt>
+            <dd>
+              <input type="text" name="email" id="email" />
+            </dd>
+            <dt><label for="comment">Comment</label></dt>
+            <dd>
+              <textarea rows="6" cols="80" name="comment" id="comment"> </textarea>
+            </dd>
+          </dl>
+          <input class="button" type="submit" value="Submit"
+        </fieldset>
+      </form>
 
-        <div class="pagination">
-          <a href="" class="button disabled">Prev</a>
-          <a href="" class="button">Next</a>
-        </div>
     </div>
 
       <div id="sidebar">
